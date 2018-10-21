@@ -19,7 +19,7 @@ import warnings
 import itertools
 from functools import reduce
 from graphviz import Source
-from sqlalchemy import create_engine
+import sqlite3
 
 
 class Experiment(object):
@@ -236,8 +236,10 @@ class Experiment(object):
         output_frame = FlorFrame(data=ltuples, columns=columns, artifacts=artifacts)
 
         if save_as == "sqlite":
-            engine = create_engine('sqlite://', echo=False)
-            output_frame.to_sql('flor_sql_output', con=engine, if_exists='replace')
+            conn = sqlite3.connect("flor_summary.db")
+            output_frame.to_sql('summaries', con=conn, if_exists='replace')
+            conn.commit()
+            conn.close()
         return output_frame
 
     def plot(self, label):
