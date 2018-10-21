@@ -19,6 +19,7 @@ import warnings
 import itertools
 from functools import reduce
 from graphviz import Source
+from sqlalchemy import create_engine
 
 
 class Experiment(object):
@@ -175,7 +176,7 @@ class Experiment(object):
         pulls = filter(lambda x: 'pull' == x['message'].split(':')[0], ld4)
         return pulls
 
-    def summarize(self):
+    def summarize(self, save_as = "None"):
         # For now summarizes everything
         # TODO: get_next_block access method (history may be very long)
 
@@ -232,7 +233,12 @@ class Experiment(object):
                 ltuples.append(tuple)
 
         # return pd.DataFrame(ltuples, columns=columns)
-        return FlorFrame(data=ltuples, columns=columns, artifacts=artifacts)
+        output_frame = FlorFrame(data=ltuples, columns=columns, artifacts=artifacts)
+
+        if save_as == "sqlite":
+            engine = create_engine('sqlite://', echo=False)
+            output_frame.to_sql('flor_sql_output', con=engine, if_exists='replace')
+        return output_frame
 
     def plot(self, label):
         # Deprecated: keeping for backward compatibility
