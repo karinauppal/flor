@@ -235,9 +235,10 @@ class Experiment(object):
         # return pd.DataFrame(ltuples, columns=columns)
         output_frame = FlorFrame(data=ltuples, columns=columns, artifacts=artifacts)
 
+        #saves the dataframe in the file flor_summary.db in the table "summary"
         if save_as == "sqlite":
             conn = sqlite3.connect("flor_summary.db")
-            output_frame.to_sql('summaries', con=conn, if_exists='replace')
+            output_frame.to_sql('summary', con=conn, if_exists='replace')
             conn.commit()
             conn.close()
         return output_frame
