@@ -11,10 +11,10 @@ log = flor.log
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
         super(NeuralNet, self).__init__()
-        self.fc1 = nn.Linear(input_size, hidden_size) 
+        self.fc1 = nn.Linear(input_size, hidden_size)
         self.relu = nn.ReLU()
-        self.fc2 = nn.Linear(hidden_size, num_classes)  
-    
+        self.fc2 = nn.Linear(hidden_size, num_classes)
+
     def forward(self, x):
         out = self.fc1(x)
         out = self.relu(out)
@@ -75,7 +75,7 @@ def main():
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-
+            import pdb; pdb.set_trace()
             if (i+1) % 100 == 0:
                 log.metric(epoch)
                 log.metric(i)
@@ -102,14 +102,3 @@ def main():
 
 with flor.Context('pytorch_demo_nn'):
     main()
-
-
-
-
-
-
-
-
-
-
-
