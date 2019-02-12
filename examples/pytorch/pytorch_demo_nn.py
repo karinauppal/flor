@@ -75,7 +75,7 @@ def main():
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            import pdb; pdb.set_trace()
+
             if (i+1) % 100 == 0:
                 log.metric(epoch)
                 log.metric(i)
@@ -101,4 +101,5 @@ def main():
 
 
 with flor.Context('pytorch_demo_nn'):
+    import pdb; pdb.set_trace()
     main()
