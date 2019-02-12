@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 from typing import List, Tuple, Dict, Any, Set
 import json
+from tensorboardX import SummaryWriter
 
 stack_frame: List[Tuple[str, str]] = []
 consume_from = {}
 dict_of_loopids = {}
+writer = SummaryWriter()
 
 # Maps a value that was returned by a function to the names of the functions that return that value
 dict_of_returns: Dict[Any, Set[str]] = {}
@@ -28,6 +30,8 @@ def internal_log(v, d):
     d['runtime_value'] = v
     d['__stack_frame__'] = tuple(stack_frame)
     file.write(json.dumps(d, indent=4) + ',\n')
+    if dict_of_returns:
+        writer.add_scalar('metric') 
     return v
 
 def log_enter(locl=None, vararg=None, kwarg=None, func_name=None, iteration_id=None):
