@@ -32,7 +32,8 @@ def internal_log(v, d):
     file.write(json.dumps(d, indent=4) + ',\n')
     #if dict_of_returns:
     import ipdb; ipdb.set_trace()
-    writer.add_scalar('metric', v)
+    if (d['typ'] == 'metric'):
+        writer.add_scalar('metric', v)
     return v
 
 def log_enter(locl=None, vararg=None, kwarg=None, func_name=None, iteration_id=None):
