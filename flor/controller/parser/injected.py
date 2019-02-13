@@ -31,7 +31,7 @@ def internal_log(v, d):
     d['__stack_frame__'] = tuple(stack_frame)
     file.write(json.dumps(d, indent=4) + ',\n')
     #if dict_of_returns:
-    import ipdb; ipdb.set_trace()
+    # import ipdb; ipdb.set_trace()
     writer.add_scalar('metric', v)
     return v
 
