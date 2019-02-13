@@ -31,7 +31,7 @@ def main():
     hidden_size = 500
     num_classes = 10
     num_epochs = 5
-    batch_size = 5
+    batch_size = 100
     learning_rate = 0.001
 
     # MNIST dataset
@@ -62,6 +62,7 @@ def main():
     # Train the model
     total_step = len(train_loader)
     for epoch in range(num_epochs):
+        print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
             images = images.reshape(-1, 28*28).to(device)
