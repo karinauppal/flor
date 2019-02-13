@@ -101,5 +101,4 @@ def main():
 
 
 with flor.Context('pytorch_demo_nn'):
-    import pdb; pdb.set_trace()
     main()
