@@ -30,10 +30,8 @@ def internal_log(v, d):
     d['runtime_value'] = v
     d['__stack_frame__'] = tuple(stack_frame)
     file.write(json.dumps(d, indent=4) + ',\n')
-    #if dict_of_returns:
-    
     if (d['typ'] == 'metric'):
-        writer.add_scalar('metric', v)
+        writer.add_scalar(d['value'], v)
     return v
 
 def log_enter(locl=None, vararg=None, kwarg=None, func_name=None, iteration_id=None):
