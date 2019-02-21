@@ -58,11 +58,11 @@ def main():
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
 
-    dummy_input = (torch.zeros(1, 3),)
+    dummy_input = torch.rand(1, 3, 224, 224)
 
     with SummaryWriter(comment='NeuralNet') as w:
-        w.add_graph(model, dummy_input, True)
-        
+        w.add_graph(model, (dummy_input,), True)
+
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=log.param(learning_rate))
