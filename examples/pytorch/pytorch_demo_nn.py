@@ -30,7 +30,7 @@ def main():
     input_size = 784
     hidden_size = 500
     num_classes = 10
-    num_epochs = 50
+    num_epochs = 8
     batch_size = 100
     learning_rate = 0.001
 
@@ -62,7 +62,6 @@ def main():
     # Train the model
     total_step = len(train_loader)
     for epoch in range(num_epochs):
-        print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
             images = images.reshape(-1, 28*28).to(device)
@@ -77,10 +76,10 @@ def main():
             loss.backward()
             optimizer.step()
 
-            if (i+1) % 100 == 0:
-                log.metric(epoch)
-                log.metric(i)
-                log.metric(loss.item())
+            #if (i+1) % 100 == 0:
+            log.metric(epoch)
+            log.metric(i)
+            log.metric(loss.item())
 
     # Test the model
     # In test phase, we don't need to compute gradients (for memory efficiency)
