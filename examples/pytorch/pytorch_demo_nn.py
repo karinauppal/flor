@@ -10,6 +10,7 @@ log = flor.log
 from tensorboardX import SummaryWriter
 writer = SummaryWriter()
 
+
 # Fully connected neural network with one hidden layer
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
@@ -58,8 +59,25 @@ def main():
 
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
-    dummy_input = (torch.zeros(1, 3))
-    writer.add_graph(model, dummy_input, verbose=True)
+
+
+    class LinearInLinear(nn.Module):
+        def __init__(self):
+            super(LinearInLinear, self).__init__()
+            self.l = nn.Linear(3, 5)
+
+        def forward(self, x):
+            return self.l(x)
+
+    with SummaryWriter(comment='LinearInLinear') as w:
+        w.add_graph(LinearInLinear(), dummy_input, True)
+
+
+
+    #
+    #
+    # dummy_input = (torch.zeros(1, 3))
+    # writer.add_graph(model, dummy_input, verbose=True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
