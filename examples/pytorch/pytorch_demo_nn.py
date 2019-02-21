@@ -59,22 +59,8 @@ def main():
 
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
-    # dummy_input = (torch.zeros(1, 3),)
-    # writer.add_graph(model, dummy_input, verbose=True)
-
-    class SimpleModel(nn.Module):
-        def __init__(self):
-            super(SimpleModel, self).__init__()
-
-        def forward(self, x):
-            return x * 2
-
-
-    model = SimpleModel()
-    dummy_input = (torch.zeros(1, 2, 3),)
-
-    with SummaryWriter(comment='constantModel') as w:
-        w.add_graph(model, dummy_input, True)
+    dummy_input = (torch.zeros(1, 3),)
+    writer.add_graph(NeuralNet(), dummy_input, verbose=True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
