@@ -69,6 +69,7 @@ def main():
         def forward(self, x):
             return self.l(x)
 
+    dummy_input = (torch.zeros(1, 3))
     with SummaryWriter(comment='LinearInLinear') as w:
         w.add_graph(LinearInLinear(), dummy_input, True)
 
