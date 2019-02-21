@@ -60,7 +60,7 @@ def main():
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
     dummy_input = (torch.zeros(1, 3))
-    writer.add_graph(model, dummy_input, verbose=True)
+    writer.add_graph(model, (dummy_input, ), verbose=True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
