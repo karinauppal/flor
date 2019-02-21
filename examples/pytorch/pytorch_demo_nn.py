@@ -59,7 +59,6 @@ def main():
 
 
     dummy_input = torch.rand(1, 3, 784)
-
     with SummaryWriter(comment='NeuralNet') as w:
         w.add_graph(model, dummy_input, True)
 
