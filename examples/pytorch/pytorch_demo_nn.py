@@ -78,9 +78,9 @@ def main():
             optimizer.step()
 
             if (i+1) % 100 == 0:
-            log.metric(epoch)
-            log.metric(i)
-            log.metric(loss.item())
+                log.metric(epoch)
+                log.metric(i)
+                log.metric(loss.item())
 
     # Test the model
     # In test phase, we don't need to compute gradients (for memory efficiency)
