@@ -59,7 +59,7 @@ def main():
 
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
-    dummy_input = (torch.zeros(1, 3),)
+    dummy_input = (input_size, hidden_size, num_classes)
     writer.add_graph(NeuralNet(), dummy_input, verbose=True)
 
     # Loss and optimizer
