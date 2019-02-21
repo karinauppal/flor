@@ -8,7 +8,6 @@ import flor
 log = flor.log
 
 from tensorboardX import SummaryWriter
-
 writer = SummaryWriter()
 
 
@@ -61,7 +60,7 @@ def main():
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
     inputs = (input_size, hidden_size, num_classes)
-    writer.add_graph(model, inputs)
+    writer.add_graph(model, inputs, verbose=True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
