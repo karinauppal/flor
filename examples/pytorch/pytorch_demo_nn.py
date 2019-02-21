@@ -62,7 +62,6 @@ def main():
     # Train the model
     total_step = len(train_loader)
     for epoch in range(num_epochs):
-        print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
             images = images.reshape(-1, 28*28).to(device)
