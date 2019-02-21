@@ -8,8 +8,6 @@ import flor
 log = flor.log
 
 from tensorboardX import SummaryWriter
-writer = SummaryWriter()
-
 
 # Fully connected neural network with one hidden layer
 class NeuralNet(nn.Module):
@@ -28,102 +26,87 @@ class NeuralNet(nn.Module):
 @flor.track
 def main():
     # Device configuration
-    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    #
-    # # Hyper-parameters
-    # input_size = 784
-    # hidden_size = 500
-    # num_classes = 10
-    # num_epochs = 5
-    # batch_size = 100
-    # learning_rate = 0.001
-    #
-    # # MNIST dataset
-    # train_dataset = torchvision.datasets.MNIST(root='../../data',
-    #                                            train=True,
-    #                                            transform=transforms.ToTensor(),
-    #                                            download=True)
-    #
-    # test_dataset = torchvision.datasets.MNIST(root='../../data',
-    #                                           train=False,
-    #                                           transform=transforms.ToTensor())
-    #
-    # # Data loader
-    # train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
-    #                                            batch_size=batch_size,
-    #                                            shuffle=True)
-    #
-    # test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
-    #                                           batch_size=batch_size,
-    #                                           shuffle=False)
-    #
-    # model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+    # Hyper-parameters
+    input_size = 784
+    hidden_size = 500
+    num_classes = 10
+    num_epochs = 5
+    batch_size = 100
+    learning_rate = 0.001
 
+    # MNIST dataset
+    train_dataset = torchvision.datasets.MNIST(root='../../data',
+                                               train=True,
+                                               transform=transforms.ToTensor(),
+                                               download=True)
 
-    class LinearInLinear(nn.Module):
-        def __init__(self):
-            super(LinearInLinear, self).__init__()
-            self.l = nn.Linear(3, 5)
+    test_dataset = torchvision.datasets.MNIST(root='../../data',
+                                              train=False,
+                                              transform=transforms.ToTensor())
 
-        def forward(self, x):
-            return self.l(x)
+    # Data loader
+    train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
+                                               batch_size=batch_size,
+                                               shuffle=True)
+
+    test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
+                                              batch_size=batch_size,
+                                              shuffle=False)
+
+    model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
+
 
     dummy_input = (torch.zeros(1, 3),)
-    with SummaryWriter(comment='LinearInLinear') as w:
-        w.add_graph(LinearInLinear(), dummy_input, True)
 
-
-
-    #
-    #
-    # dummy_input = (torch.zeros(1, 3))
-    # writer.add_graph(model, dummy_input, verbose=True)
-
-    # # Loss and optimizer
-    # criterion = nn.CrossEntropyLoss()
-    # optimizer = torch.optim.Adam(model.parameters(), lr=log.param(learning_rate))
+    with SummaryWriter(comment='NeuralNet') as w:
+        w.add_graph(model, dummy_input, True)
+        
+    # Loss and optimizer
+    criterion = nn.CrossEntropyLoss()
+    optimizer = torch.optim.Adam(model.parameters(), lr=log.param(learning_rate))
 
     # Train the model
-    # total_step = len(train_loader)
-    # for epoch in range(num_epochs):
-    #     print(epoch)
-    #     for i, (images, labels) in enumerate(train_loader):
-    #         # Move tensors to the configured device
-    #         images = images.reshape(-1, 28*28).to(device)
-    #         labels = labels.to(device)
-    #
-    #         # Forward pass
-    #         outputs = model(images)
-    #         loss = criterion(outputs, labels)
-    #
-    #         # Backward and optimize
-    #         optimizer.zero_grad()
-    #         loss.backward()
-    #         optimizer.step()
-    #
-    #         #if (i+1) % 100 == 0:
-    #         log.metric(epoch)
-    #         log.metric(i)
-    #         log.metric(loss.item())
-    #
-    # # Test the model
-    # # In test phase, we don't need to compute gradients (for memory efficiency)
-    # with torch.no_grad():
-    #     correct = 0
-    #     total = 0
-    #     for images, labels in test_loader:
-    #         images = images.reshape(-1, 28*28).to(device)
-    #         labels = labels.to(device)
-    #         outputs = model(images)
-    #         _, predicted = torch.max(outputs.data, 1)
-    #         total += labels.size(0)
-    #         correct += (predicted == labels).sum().item()
-    #
-    #         acc = 100 * (correct / total)
-    #         log.metric(acc)
-    #
-    # print('Accuracy of the network on the 10000 test images: {} %'.format(acc))
+    total_step = len(train_loader)
+    for epoch in range(num_epochs):
+        print(epoch)
+        for i, (images, labels) in enumerate(train_loader):
+            # Move tensors to the configured device
+            images = images.reshape(-1, 28*28).to(device)
+            labels = labels.to(device)
+
+            # Forward pass
+            outputs = model(images)
+            loss = criterion(outputs, labels)
+
+            # Backward and optimize
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            #if (i+1) % 100 == 0:
+            log.metric(epoch)
+            log.metric(i)
+            log.metric(loss.item())
+
+    # Test the model
+    # In test phase, we don't need to compute gradients (for memory efficiency)
+    with torch.no_grad():
+        correct = 0
+        total = 0
+        for images, labels in test_loader:
+            images = images.reshape(-1, 28*28).to(device)
+            labels = labels.to(device)
+            outputs = model(images)
+            _, predicted = torch.max(outputs.data, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+
+            acc = 100 * (correct / total)
+            log.metric(acc)
+
+    print('Accuracy of the network on the 10000 test images: {} %'.format(acc))
 
 
 with flor.Context('pytorch_demo_nn'):
