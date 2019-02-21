@@ -7,6 +7,11 @@ import torchvision.transforms as transforms
 import flor
 log = flor.log
 
+from tensorboardX import SummaryWriter
+
+writer = SummaryWriter()
+
+
 # Fully connected neural network with one hidden layer
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
@@ -55,6 +60,9 @@ def main():
 
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
+    inputs = (input_size, hidden_size, num_classes)
+    writer.add_graph(model, inputs)
+
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=log.param(learning_rate))
@@ -62,6 +70,7 @@ def main():
     # Train the model
     total_step = len(train_loader)
     for epoch in range(num_epochs):
+        print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
             images = images.reshape(-1, 28*28).to(device)
@@ -80,7 +89,6 @@ def main():
             log.metric(epoch)
             log.metric(i)
             log.metric(loss.item())
-            print(loss.item())
 
     # Test the model
     # In test phase, we don't need to compute gradients (for memory efficiency)
