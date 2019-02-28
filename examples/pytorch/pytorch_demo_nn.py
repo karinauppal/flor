@@ -58,7 +58,7 @@ def main():
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
 
-    dummy_input = torch.Tensor(input_size, hidden_size, num_classes)
+    dummy_input = torch.rand(1, 3, 784)
     with SummaryWriter(comment='NeuralNet') as w:
         w.add_graph(model, dummy_input, True)
 
