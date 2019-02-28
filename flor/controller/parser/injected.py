@@ -10,6 +10,7 @@ writer = SummaryWriter()
 
 # Maps a value that was returned by a function to the names of the functions that return that value
 dict_of_returns: Dict[Any, Set[str]] = {}
+#dict_of_curr_state: Dict[] = {} #update every time there is an internal log
 
 file = None
 
@@ -32,7 +33,6 @@ def internal_log(v, d):
     file.write(json.dumps(d, indent=4) + ',\n')
     if (d['typ'] == 'metric'):
         writer.add_scalar(d['value'], v)
-    #writer.add_graph()
     return v
 
 def log_enter(locl=None, vararg=None, kwarg=None, func_name=None, iteration_id=None):

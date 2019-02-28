@@ -72,7 +72,7 @@ def main():
         print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
-            images = images.reshape(-1, 7*7).to(device)
+            images = images.reshape(-1, 28*28).to(device)
             labels = labels.to(device)
 
             # Forward pass
