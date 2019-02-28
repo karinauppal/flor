@@ -36,7 +36,7 @@
     "instruction_no": 16,
     "keyword_name": "random_state",
     "pos": null,
-    "runtime_value": 430,
+    "runtime_value": 100,
     "typ": "param",
     "value": "random_state",
     "__stack_frame__": [
@@ -77,25 +77,6 @@
     "runtime_value": 100.0,
     "typ": "param",
     "value": "C",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "fit_and_score_model"
-        ]
-    ]
-},
-{
-    "assignee": "score",
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "fit_and_score_model",
-    "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 28,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 1.0,
-    "typ": "metric",
-    "value": "clf.score(X_te, y_te)",
     "__stack_frame__": [
         [
             "function_body",

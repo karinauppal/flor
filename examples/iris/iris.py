@@ -19,9 +19,9 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
-    dummy_input = torch.rand(1, 3)
+    input = torch.rand(gamme, C)
     with SummaryWriter(comment='Support Vector') as w:
-        w.add_graph(clf, dummy_input, True)
+        w.add_graph(clf, input, True)
 
     clf.fit(X_tr, y_tr)
 
@@ -29,7 +29,7 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     print(score)
 
 with flor.Context('iris'):
-    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=430)
+    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=100)
 
 # current features of flor that we need keep in future, things we do not have but we need (what if user does not wrap something)
 
