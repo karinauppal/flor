@@ -26,6 +26,7 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
+    print(score)
 
 with flor.Context('iris'):
     fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=430)
