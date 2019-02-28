@@ -28,3 +28,9 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
 with flor.Context('iris'):
     fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=430)
+
+# current features of flor that we need keep in future, things we do not have but we need (what if user does not wrap something)
+
+# works with torch but what if people use scikitlearn
+
+# wrap standard libraries, if you are writing your own model from scratch so no way for us to wrap it so will need a log features

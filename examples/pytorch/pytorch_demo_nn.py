@@ -62,10 +62,6 @@ def main():
     with SummaryWriter(comment='NeuralNet') as w:
         w.add_graph(model, dummy_input, True)
 
-#current features of flor that we need keep in future, things we dont have but we need (what if user doesnt wrap something)
-
-#works with torch but what if peple use scikit
-
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=log.param(learning_rate))
