@@ -36,7 +36,7 @@
     "instruction_no": 16,
     "keyword_name": "random_state",
     "pos": null,
-    "runtime_value": 10,
+    "runtime_value": 2,
     "typ": "param",
     "value": "random_state",
     "__stack_frame__": [

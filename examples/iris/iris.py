@@ -29,7 +29,7 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     print(score)
 
 with flor.Context('iris'):
-    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=10)
+    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=2)
 
 # current features of flor that we need keep in future, things we do not have but we need (what if user does not wrap something)
 
