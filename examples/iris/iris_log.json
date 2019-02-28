@@ -84,3 +84,22 @@
         ]
     ]
 },
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 28,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.9565217391304348,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
