@@ -58,7 +58,7 @@ def main():
 
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
-    writer.add_graph('NeuralNet', model, input_size, True)
+    writer.add_graph('NeuralNet', model, True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
