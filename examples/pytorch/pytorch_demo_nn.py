@@ -90,7 +90,7 @@ def main():
             log.param(i)
             log.metric(loss.item())
 
-            writer.add_scalar('loss', loss.item(), epoch)
+            writer.add_scalar('loss.item__', loss.item(), (epoch, i))
 
     # Test the model
     # In test phase, we don't need to compute gradients (for memory efficiency)
@@ -107,6 +107,9 @@ def main():
 
             acc = 100 * (correct / total)
             log.metric(acc)
+
+            writer.add_scalar('acc', acc)
+
 
     print('Accuracy of the network on the 10000 test images: {} %'.format(acc))
 
