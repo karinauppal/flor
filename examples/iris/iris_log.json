@@ -90,7 +90,7 @@
     "from_arg": false,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 30,
+    "instruction_no": 28,
     "keyword_name": null,
     "pos": null,
     "runtime_value": 0.9565217391304348,
