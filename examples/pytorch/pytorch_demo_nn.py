@@ -85,12 +85,14 @@ def main():
             loss.backward()
             optimizer.step()
 
-            #if (i+1) % 100 == 0:
-            log.param(epoch)
-            log.param(i)
-            log.metric(loss.item())
+            if (i+1) % 100 == 0:
+                log.param(epoch)
+                log.param(i)
+                log.metric(loss.item())
 
-            writer.add_scalar('loss.item__', loss.item(), (epoch, i))
+                writer.add_scalar('loss.item__', loss.item(), epoch)
+                writer.add_scalar('loss.item__', loss.item(), i)
+
 
     # Test the model
     # In test phase, we don't need to compute gradients (for memory efficiency)

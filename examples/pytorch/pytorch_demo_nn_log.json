@@ -97,7 +97,7 @@
         ],
         [
             "loop_body",
-            "0"
+            "99"
         ]
     ]
 },
@@ -110,7 +110,7 @@
     "instruction_no": 90,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0,
+    "runtime_value": 99,
     "typ": "param",
     "value": "i",
     "__stack_frame__": [
@@ -124,7 +124,7 @@
         ],
         [
             "loop_body",
-            "0"
+            "99"
         ]
     ]
 },
@@ -137,7 +137,7 @@
     "instruction_no": 91,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 2.283867597579956,
+    "runtime_value": 0.3472740054130554,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -151,7 +151,4656 @@
         ],
         [
             "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
             "0"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 199,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.27400216460227966,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 299,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.27887603640556335,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 399,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.16553165018558502,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 499,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.20551225543022156,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 599,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.19982033967971802,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 99,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.19512183964252472,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 199,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.16653430461883545,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 299,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.09210139513015747,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 399,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.059606701135635376,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 499,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.07463777810335159,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 599,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.1225212886929512,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 2,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 99,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.07286445051431656,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 2,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 199,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.05025533586740494,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 2,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 299,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.11224769800901413,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 2,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 399,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.1043173298239708,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 2,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 499,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.036752618849277496,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 2,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 599,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.037287358194589615,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 3,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 99,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.03889680281281471,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 3,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 199,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.06349313259124756,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 3,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 299,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.09904918819665909,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 3,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 399,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.046966854482889175,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 3,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 499,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.03982670605182648,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 3,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 599,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.044938016682863235,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 4,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 99,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.033230945467948914,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "99"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 4,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 199,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.049988776445388794,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "199"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 4,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 299,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.05214199423789978,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "299"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 4,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 399,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.05640778690576553,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "399"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 4,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 499,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.020647799596190453,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "499"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 89,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 4,
+    "typ": "param",
+    "value": "epoch",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 90,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 599,
+    "typ": "param",
+    "value": "i",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 91,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.019830096513032913,
+    "typ": "metric",
+    "value": "loss.item()",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ],
+        [
+            "loop_body",
+            "599"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 99.5,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 99.0,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "2"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.75,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.6,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.66666666666667,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "5"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.42857142857143,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "6"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.25,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "7"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.22222222222223,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "8"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.8,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "9"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.81818181818181,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "10"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.66666666666667,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "11"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.46153846153847,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "12"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.5,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "13"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.66666666666667,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "14"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.625,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "15"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.58823529411764,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "16"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.44444444444444,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "17"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.47368421052632,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "18"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.45,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "19"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.23809523809524,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "20"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.13636363636363,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "21"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.08695652173913,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "22"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.125,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "23"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.16,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "24"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.26923076923077,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "25"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.25925925925925,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "26"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.35714285714285,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "27"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.37931034482759,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "28"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.3,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "29"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.35483870967741,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "30"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.375,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "31"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.45454545454545,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "32"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.5,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "33"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.54285714285714,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "34"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.44444444444444,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "35"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.48648648648648,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "36"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.36842105263158,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "37"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.38461538461539,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "38"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.375,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "39"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.36585365853658,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "40"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.38095238095238,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "41"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.34883720930233,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "42"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.38636363636364,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "43"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.42222222222222,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "44"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.43478260869564,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "45"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.44680851063829,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "46"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.47916666666666,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "47"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.44897959183673,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "48"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.42,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "49"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.45098039215686,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "50"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.5,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "51"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.54716981132076,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "52"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.57407407407406,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "53"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.6,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "54"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.64285714285714,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "55"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.63157894736842,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "56"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.63793103448276,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "57"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.64406779661017,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "58"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.55,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "59"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.49180327868852,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "60"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.51612903225806,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "61"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.55555555555556,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "62"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.59375,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "63"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.63076923076923,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "64"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.56060606060606,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "65"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.55223880597015,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "66"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.55882352941177,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "67"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.57971014492753,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "68"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.61428571428571,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "69"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.64788732394366,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "70"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.68055555555556,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "71"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.7123287671233,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "72"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.74324324324324,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "73"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.77333333333334,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "74"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.78947368421052,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "75"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.81818181818181,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "76"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.84615384615385,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "77"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.87341772151899,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "78"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.875,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "79"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.87654320987654,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "80"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.89024390243902,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "81"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.87951807228914,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "82"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.88095238095238,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "83"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.89411764705882,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "84"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.88372093023256,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "85"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.9080459770115,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "86"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.93181818181819,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "87"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.95505617977528,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "88"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.97777777777777,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "89"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.94505494505495,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "90"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.96739130434783,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "91"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.9784946236559,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "92"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.0,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "93"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.02105263157894,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "94"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.03125,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "95"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 98.0,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "96"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.94897959183673,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "97"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.93939393939394,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "98"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 111,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.95,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "99"
         ]
     ]
 },
