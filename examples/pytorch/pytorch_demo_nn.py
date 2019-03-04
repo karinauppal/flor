@@ -8,6 +8,7 @@ import flor
 log = flor.log
 
 from tensorboardX import SummaryWriter
+writer = SummaryWriter()
 
 # Fully connected neural network with one hidden layer
 class NeuralNet(nn.Module):
@@ -58,9 +59,9 @@ def main():
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
 
-    dummy_input = torch.rand(1, 3, 784)
-    with SummaryWriter(comment='NeuralNet') as w:
-        w.add_graph(model, dummy_input, True)
+    # dummy_input = torch.rand(1, 3, 784)
+    # with SummaryWriter(comment='NeuralNet') as w:
+    #     w.add_graph(model, dummy_input, True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
@@ -85,9 +86,11 @@ def main():
             optimizer.step()
 
             #if (i+1) % 100 == 0:
-            log.metric(epoch)
-            log.metric(i)
+            log.param(epoch)
+            log.param(i)
             log.metric(loss.item())
+
+            writer.add_scalar('loss', loss.item(), epoch)
 
     # Test the model
     # In test phase, we don't need to compute gradients (for memory efficiency)
