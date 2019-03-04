@@ -58,10 +58,7 @@ def main():
 
     model = NeuralNet(log.param(input_size), log.param(hidden_size), log.param(num_classes)).to(device)
 
-
-    # dummy_input = torch.rand(1, 3, 784)
-    # with SummaryWriter(comment='NeuralNet') as w:
-    #     w.add_graph(model, dummy_input, True)
+    writer.add_graph('NeuralNet', model, input_size, True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
@@ -90,8 +87,8 @@ def main():
                 log.param(i)
                 log.metric(loss.item())
 
-                writer.add_scalar('loss_epoch', loss.data.item(), epoch)
-                writer.add_scalar('loss_iter', loss.data.item(), i)
+                writer.add_scalar('loss_epoch', loss.item(), epoch)
+                writer.add_scalar('loss_iter', loss.item(), i)
 
                 #writer.add_scalar('loss.item__', loss.item(), i)
 
