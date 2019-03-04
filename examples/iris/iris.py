@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import torch
 import numpy as np
 from tensorboardX import SummaryWriter
-
+writer = SummaryWriter()
 log = flor.log
 
 
@@ -21,12 +21,12 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
     with SummaryWriter(comment='Support Vector') as w:
-        w.add_graph(clf, torch.FloatTensor(np.array([gamma, C])))
+        w.add_graph(clf, torch.FloatTensor(np.array([gamma, C])), True)
 
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
-    #w.add_scalar('score', score)
+    writer.add_scalar('score', score)
     print(score)
 
 with flor.Context('iris'):
