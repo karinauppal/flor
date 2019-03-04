@@ -108,7 +108,7 @@ def main():
             acc = 100 * (correct / total)
             log.metric(acc)
 
-            writer.add_scalar('acc', acc)
+            # writer.add_scalar('acc', acc)
 
 
     print('Accuracy of the network on the 10000 test images: {} %'.format(acc))
