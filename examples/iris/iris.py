@@ -19,10 +19,9 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
-    input1 = torch.FloatTensor(gamma)
-    input2 = torch.FloatTensor(C)
+    input1 = torch.FloatTensor(gamma, C)
 
-    writer.add_graph('Support Vector', clf, (input1, input2), True)
+    writer.add_graph('Support Vector', clf, input1, True)
 
     clf.fit(X_tr, y_tr)
 
