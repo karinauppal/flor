@@ -91,7 +91,7 @@ def main():
                 log.metric(loss.item())
 
                 writer.add_scalar('loss.item__', loss.item(), epoch)
-                writer.add_scalar('loss.item__', loss.item(), i)
+                #writer.add_scalar('loss.item__', loss.item(), i)
 
 
     # Test the model
