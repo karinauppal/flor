@@ -22,7 +22,8 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     x = np.array([gamma, C])
     dummy_input = torch.FloatTensor(x)
-    writer.add_graph(clf, dummy_input, True)
+    with SummaryWriter(comment='Support Vector') as w:
+        w.add_graph(clf, dummy_input, True)
 
     clf.fit(X_tr, y_tr)
 
