@@ -20,7 +20,7 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
     dummy_input = torch.rand(1)
-    writer.add_graph('Support Vector', clf, (dummy_input,), True)
+    writer.add_graph(clf, (dummy_input,), True)
 
     clf.fit(X_tr, y_tr)
 
