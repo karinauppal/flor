@@ -3,7 +3,6 @@ from sklearn import datasets
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 
-import numpy as np
 import torch
 from tensorboardX import SummaryWriter
 writer = SummaryWriter()
@@ -20,7 +19,7 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
-    input = torch.Tensor(np.array(gamma, C))
+    input = torch.Tensor(gamma, C)
     writer.add_graph('Support Vector', clf, input, True)
 
     clf.fit(X_tr, y_tr)
