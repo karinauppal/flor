@@ -19,9 +19,8 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
-    input1 = torch.FloatTensor(gamma, C)
-
-    writer.add_graph('Support Vector', clf, input1, True)
+    dummy_input = torch.rand(gamma, C)
+    writer.add_graph('Support Vector', clf, dummy_input, True)
 
     clf.fit(X_tr, y_tr)
 
@@ -30,4 +29,4 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     print(score)
 
 with flor.Context('iris'):
-    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=150)
+    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=430)
