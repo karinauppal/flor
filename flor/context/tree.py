@@ -1,7 +1,8 @@
 from typing import List, Dict, Any
+from flor.context.tables import *
 import pandas as pd
 import numpy as np
-
+import os
 class Node:
 
     def __init__(self, d):
@@ -24,14 +25,16 @@ class Node:
 class Tree:
 
     def __init__(self, log_records: List[Dict[str, Any]]):
-        # set marker when I find child
-        # clear marker when I find
-
-        marker = {}
-        stack_frames = []
-
         self.producers_table = {}
         self.leaves = set([])
+        self.build_tree(log_records)
+        self.d = {}
+
+    def build_tree(self, log_records: List[Dict[str, Any]]):
+        self.producers_table = {}
+        self.leaves = set([])
+        marker = {}
+        stack_frames = []
         nodes : List[Node] = []
 
         for r in log_records:
@@ -44,17 +47,17 @@ class Tree:
                 nodes.append(Node(r))
                 self.leaves |= {nodes[-1],}
 
-        # print(self.producers_table)
-
-        for idx, node in enumerate(nodes):
+        for idx, node in enumerate(nodes): #figure out how to change this part
             # Attach this node to its parent, unless this node is root
-            if node.stack_frame not in marker:
+            check = False
+            # print(marker)
+            if str(node.stack_frame) not in marker:
                 # Update the marker and stack frames the first time we see a new stack_frame
-                marker[node.stack_frame] = node
+                marker[str(node.stack_frame)] = node
                 if stack_frames:
                     for stack_frame in stack_frames:
                         if self.__is_ancestor__(stack_frame, node.stack_frame):
-                            parent = marker[stack_frame]
+                            parent = marker[str(stack_frame)]
                             parent.children.append(node)
                             node.parent = parent
                             self.leaves -= {parent,}
@@ -64,13 +67,21 @@ class Tree:
                 # Advance the marker
                 if (node.stack_frame != nodes[-1].stack_frame and
                     self.__is_ancestor__(node.stack_frame, nodes[-1].stack_frame)):
+                    # print(idx)
                     marker = {}
                     stack_frames = [node.stack_frame]
                 parent = nodes[idx - 1]
                 parent.children.append(node)
                 node.parent = parent
                 self.leaves -= {parent,}
-                marker[node.stack_frame] = node
+                marker[str(node.stack_frame)] = node
+
+        #inserting into database
+        for node in nodes:
+            commit = git.Repo(os.getcwd()).head.commit
+            name = git.Repo(os.getcwd()).head.commit.message
+            insert_experiment(name, commit, 0)
+            insert_ParamMetric()
 
 
     def get_df(self):
@@ -85,26 +96,32 @@ class Tree:
                 matrix[row_id][col_id] = node.runtime_value
                 node = node.parent
         # len(d[row_id]) = len(self.leaves)
-        d = {}
+        # print(matrix)
+        # print(self.d)
         for row_id in matrix:
-            column = []
+            if row_id in self.d:
+                column = self.d[row_id]
+            else:
+                column = []
+            # print(column)
             for col_id in range(len(self.leaves)):
                 if col_id not in matrix[row_id]:
                     column.append(np.nan)
                 else:
                     column.append(matrix[row_id][col_id])
-            d[row_id] = column
+            self.d[row_id] = column
 
-        return pd.DataFrame.from_dict(d, orient='index')
+        return pd.DataFrame.from_dict(self.d, orient='index')
 
     def __is_ancestor__(self, stack_frame1, stack_frame2):
+        #stack_frame 1 is earlier than stack_frame2
         if stack_frame1 == stack_frame2[0:len(stack_frame1)]:
             return True
-        # stack_frame1 is not empty
         if stack_frame1[0:-1] == stack_frame2[0:-1]:
             # TODO: This is an overly-conservative lineage check, generalize
             n1, v1 = stack_frame1[-1]
             n2, v2 = stack_frame2[-1]
             if n1 == n2 and n1 == "function_body":
                 return v1 in self.producers_table[v2]
+        
         return False
