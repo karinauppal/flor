@@ -20,13 +20,15 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
-    input = torch.zeros(1, 3)
-    writer.add_graph(clf, input, True)
+    #input = torch.zeros(1, 3)
+    #writer.add_graph(clf, input, True)
 
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
     writer.add_scalar('score', score, gamma)
 
+gammas = [0.001, 0.01, 0.05, 0.1]
 with flor.Context('iris'):
-    fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=100)
+    for gamma in gammas:
+        fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100)
