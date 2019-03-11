@@ -69,7 +69,7 @@ def main():
     X_tr, X_te, y_tr, y_te = train_test_split(iris.data, iris.target,
                                                   test_size=log.param(test_size),
                                                   random_state=log.param(random_state))
-    for gamma in range(0.01, 0.1, 0.08):
+    for gamma in np.arange(0.01, 0.1, 0.08):
         clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
         clf.fit(X_tr, y_tr)

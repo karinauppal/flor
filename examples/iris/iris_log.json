@@ -46,3 +46,141 @@
         ]
     ]
 },
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 73,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.01,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 73,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 77,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1.0,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "0"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 73,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.09,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 73,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 77,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 0.9565217391304348,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "1"
+        ]
+    ]
+},
