@@ -60,8 +60,8 @@ def main():
 
     # How do we tell if the model is a torch.nn module?
     # Eg. this one is not a torch.nn module so we just plot a node saying NeuralNet with input going into it
-    input = (torch.zeros(1, 3), )
-    writer.add_graph('NeuralNet', model, input)
+    #input = (torch.zeros(1, 3), )
+    #writer.add_graph('NeuralNet', model, input, True)
 
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
@@ -90,11 +90,11 @@ def main():
             log.param(i)
             log.metric(loss.item())
 
-            #print(i)
-            #print("Loss: ", loss.item())
+            print(i)
+            print("Loss: ", loss.item())
 
-        #print("Average Loss: ", loss.item())
-        #writer.add_scalar('loss_epoch', loss.item(), epoch)
+        print("Average Loss: ", loss.item())
+        writer.add_scalar('loss_epoch', loss.item(), epoch)
             #writer.add_scalar('loss_iter', loss.item(), i)
 
 
