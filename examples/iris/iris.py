@@ -27,6 +27,9 @@ def fit_and_score_model(gamma, C, test_size, random_state):
 
     score = log.metric(clf.score(X_te, y_te))
     writer.add_scalar('score', score, gamma)
+    print('Gamma: ' , gamma)
+    print('Score: ' , score)
+
 
 gammas = [0.001, 0.01, 0.05, 0.1]
 with flor.Context('iris'):
