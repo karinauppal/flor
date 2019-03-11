@@ -60,7 +60,7 @@ def main():
 
     # How do we tell if the model is a torch.nn module?
     # Eg. this one is not a torch.nn module so we just plot a node saying NeuralNet with input going into it
-    input = torch.rand(32, )
+    input = (torch.zeros(1, 3),)
     writer.add_graph('NeuralNet', model, input, True)
 
     # Loss and optimizer
