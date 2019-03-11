@@ -89,9 +89,9 @@ def main():
             log.metric(loss.item())
 
             print(i)
-            print("loss: ", loss.item())
+            print("Loss: ", loss.item())
 
-        print("FINAL loss: ", loss.item())
+        print("Average Loss: ", loss.item())
         writer.add_scalar('loss_epoch', loss.item(), epoch)
             #writer.add_scalar('loss_iter', loss.item(), i)
 
