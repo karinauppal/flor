@@ -87,8 +87,9 @@ def main():
             log.param(epoch)
             log.param(i)
             log.metric(loss.item())
-
-            writer.add_scalar('loss_epoch', loss.item(), epoch)
+            
+            dummy_s1 = torch.rand(1)
+            writer.add_scalar('loss_epoch', dummy_s1[0], epoch)
             # writer.add_scalar('loss_iter', loss.item(), i)
 
 
