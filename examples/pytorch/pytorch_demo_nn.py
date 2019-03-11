@@ -68,7 +68,7 @@ def main():
     # Train the model
     total_step = len(train_loader)
     for epoch in range(num_epochs):
-        print(epoch)
+        #print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
             images = images.reshape(-1, 28*28).to(device)
@@ -88,6 +88,7 @@ def main():
             log.param(i)
             log.metric(loss.item())
 
+            print(i)
             print("loss: ", loss.item())
         #writer.add_scalar('loss_epoch', loss.item(), epoch)
             writer.add_scalar('loss_iter', loss.item(), i)
