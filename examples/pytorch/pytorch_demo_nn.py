@@ -88,6 +88,7 @@ def main():
             log.param(i)
             log.metric(loss.item())
 
+            print("loss: ", loss.item())
         writer.add_scalar('loss_epoch', loss.item(), epoch)
             # writer.add_scalar('loss_iter', loss.item(), i)
 
