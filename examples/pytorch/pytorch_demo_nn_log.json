@@ -137,7 +137,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.30086663365364075,
+    "runtime_value": 0.29882127046585083,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -218,7 +218,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.5413030982017517,
+    "runtime_value": 0.26208630204200745,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -299,7 +299,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.2863219082355499,
+    "runtime_value": 0.23113375902175903,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -380,7 +380,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.2528611719608307,
+    "runtime_value": 0.1519021838903427,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -461,7 +461,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.09960933029651642,
+    "runtime_value": 0.13199807703495026,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -542,7 +542,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.15907765924930573,
+    "runtime_value": 0.23326130211353302,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -623,7 +623,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.04455316439270973,
+    "runtime_value": 0.13143390417099,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -704,7 +704,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.1245417594909668,
+    "runtime_value": 0.11823583394289017,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -785,7 +785,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.07417468726634979,
+    "runtime_value": 0.08844494074583054,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -866,7 +866,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.13286656141281128,
+    "runtime_value": 0.06289419531822205,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -947,7 +947,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.15859058499336243,
+    "runtime_value": 0.0669676810503006,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1028,7 +1028,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.07779836654663086,
+    "runtime_value": 0.16192679107189178,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1109,7 +1109,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.14672309160232544,
+    "runtime_value": 0.09250102937221527,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1190,7 +1190,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.06668691337108612,
+    "runtime_value": 0.06777197122573853,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1271,7 +1271,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.029641229659318924,
+    "runtime_value": 0.049925923347473145,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1352,7 +1352,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.09793789684772491,
+    "runtime_value": 0.030789777636528015,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1433,7 +1433,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.04644198715686798,
+    "runtime_value": 0.07811713218688965,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1514,7 +1514,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.01884833164513111,
+    "runtime_value": 0.05107913911342621,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1595,7 +1595,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.028028350323438644,
+    "runtime_value": 0.011143348179757595,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1676,7 +1676,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.06667384505271912,
+    "runtime_value": 0.025535568594932556,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1757,7 +1757,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.1620151400566101,
+    "runtime_value": 0.06856757402420044,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1838,7 +1838,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.02600526064634323,
+    "runtime_value": 0.09012037515640259,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -1919,7 +1919,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.053572963923215866,
+    "runtime_value": 0.06418465077877045,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2000,7 +2000,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.036646660417318344,
+    "runtime_value": 0.024753933772444725,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2081,7 +2081,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.07597312331199646,
+    "runtime_value": 0.07353857904672623,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2162,7 +2162,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.07007088512182236,
+    "runtime_value": 0.09286805987358093,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2243,7 +2243,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.051559895277023315,
+    "runtime_value": 0.01379114855080843,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2324,7 +2324,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.011331295594573021,
+    "runtime_value": 0.06374535709619522,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2405,7 +2405,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.01962563768029213,
+    "runtime_value": 0.06683848798274994,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2486,7 +2486,7 @@
     "instruction_no": 89,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.042003240436315536,
+    "runtime_value": 0.08089781552553177,
     "typ": "metric",
     "value": "loss.item()",
     "__stack_frame__": [
@@ -2501,29 +2501,6 @@
         [
             "loop_body",
             "599"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 100.0,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "0"
         ]
     ]
 },
@@ -2546,214 +2523,7 @@
         ],
         [
             "loop_body",
-            "1"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 99.0,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "2"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.75,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "3"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.8,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "4"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.83333333333333,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "5"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.14285714285714,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "6"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.25,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "7"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.33333333333333,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "8"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 98.1,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "9"
-        ]
-    ]
-},
-{
-    "assignee": null,
-    "caller": null,
-    "from_arg": false,
-    "in_execution": "main",
-    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
-    "instruction_no": 109,
-    "keyword_name": null,
-    "pos": null,
-    "runtime_value": 97.81818181818181,
-    "typ": "metric",
-    "value": "acc",
-    "__stack_frame__": [
-        [
-            "function_body",
-            "main"
-        ],
-        [
-            "loop_body",
-            "10"
+            "0"
         ]
     ]
 },
@@ -2776,7 +2546,7 @@
         ],
         [
             "loop_body",
-            "11"
+            "1"
         ]
     ]
 },
@@ -2789,7 +2559,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.23076923076923,
+    "runtime_value": 97.33333333333334,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -2799,7 +2569,76 @@
         ],
         [
             "loop_body",
-            "12"
+            "2"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.25,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "3"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.2,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "4"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.33333333333334,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "5"
         ]
     ]
 },
@@ -2822,6 +2661,167 @@
         ],
         [
             "loop_body",
+            "6"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.25,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "7"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.33333333333334,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "8"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.2,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "9"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.27272727272728,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "10"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.16666666666667,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "11"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 97.0,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
+            "12"
+        ]
+    ]
+},
+{
+    "assignee": null,
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "main",
+    "in_file": "/Users/karina/flor/examples/pytorch/pytorch_demo_nn.py",
+    "instruction_no": 109,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 96.92857142857143,
+    "typ": "metric",
+    "value": "acc",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "main"
+        ],
+        [
+            "loop_body",
             "13"
         ]
     ]
@@ -2835,7 +2835,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.13333333333334,
+    "runtime_value": 97.06666666666666,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -2881,7 +2881,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.82352941176471,
+    "runtime_value": 96.88235294117648,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -2927,7 +2927,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.78947368421052,
+    "runtime_value": 96.73684210526315,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -2950,7 +2950,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.7,
+    "runtime_value": 96.65,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -2973,7 +2973,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.47619047619047,
+    "runtime_value": 96.52380952380952,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -2996,7 +2996,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.27272727272728,
+    "runtime_value": 96.45454545454545,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3019,7 +3019,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.3913043478261,
+    "runtime_value": 96.47826086956522,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3042,7 +3042,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.45833333333333,
+    "runtime_value": 96.54166666666667,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3065,7 +3065,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.44,
+    "runtime_value": 96.56,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3088,7 +3088,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.57692307692308,
+    "runtime_value": 96.65384615384616,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3111,7 +3111,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.55555555555554,
+    "runtime_value": 96.62962962962963,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3134,7 +3134,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.64285714285714,
+    "runtime_value": 96.75,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3157,7 +3157,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.6896551724138,
+    "runtime_value": 96.79310344827586,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3180,7 +3180,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.63333333333334,
+    "runtime_value": 96.8,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3203,7 +3203,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.67741935483872,
+    "runtime_value": 96.80645161290322,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3226,7 +3226,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.71875,
+    "runtime_value": 96.875,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3249,7 +3249,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.75757575757575,
+    "runtime_value": 96.96969696969697,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3272,7 +3272,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.79411764705883,
+    "runtime_value": 97.02941176470588,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3295,7 +3295,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.77142857142857,
+    "runtime_value": 97.05714285714285,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3318,7 +3318,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.75,
+    "runtime_value": 96.97222222222223,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3341,7 +3341,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.8108108108108,
+    "runtime_value": 97.0,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3364,7 +3364,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.71052631578947,
+    "runtime_value": 96.92105263157896,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3387,7 +3387,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.64102564102565,
+    "runtime_value": 96.92307692307692,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3410,7 +3410,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.625,
+    "runtime_value": 96.85000000000001,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3433,7 +3433,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.65853658536585,
+    "runtime_value": 96.85365853658536,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3456,7 +3456,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.66666666666667,
+    "runtime_value": 96.85714285714285,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3479,7 +3479,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.65116279069767,
+    "runtime_value": 96.83720930232558,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3502,7 +3502,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.6590909090909,
+    "runtime_value": 96.86363636363636,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3525,7 +3525,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.66666666666667,
+    "runtime_value": 96.88888888888889,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3548,7 +3548,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.67391304347827,
+    "runtime_value": 96.91304347826087,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3571,7 +3571,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.70212765957447,
+    "runtime_value": 96.97872340425532,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3594,7 +3594,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.75,
+    "runtime_value": 97.0,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3617,7 +3617,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.71428571428572,
+    "runtime_value": 96.91836734693877,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3640,7 +3640,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.72,
+    "runtime_value": 96.96000000000001,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3663,7 +3663,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.76470588235294,
+    "runtime_value": 97.01960784313725,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3686,7 +3686,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.82692307692308,
+    "runtime_value": 97.07692307692307,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3709,7 +3709,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.88679245283018,
+    "runtime_value": 97.11320754716981,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3732,7 +3732,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.92592592592592,
+    "runtime_value": 97.14814814814815,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3755,7 +3755,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 96.94545454545455,
+    "runtime_value": 97.18181818181819,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3778,7 +3778,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.0,
+    "runtime_value": 97.23214285714286,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3801,7 +3801,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.0,
+    "runtime_value": 97.19298245614036,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3824,7 +3824,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.03448275862068,
+    "runtime_value": 97.22413793103448,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3847,7 +3847,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.08474576271186,
+    "runtime_value": 97.2542372881356,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3870,7 +3870,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.06666666666666,
+    "runtime_value": 97.23333333333333,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3893,7 +3893,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.01639344262296,
+    "runtime_value": 97.19672131147541,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3916,7 +3916,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.03225806451613,
+    "runtime_value": 97.20967741935483,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3939,7 +3939,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.07936507936508,
+    "runtime_value": 97.25396825396825,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3962,7 +3962,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.109375,
+    "runtime_value": 97.296875,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -3985,7 +3985,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.15384615384616,
+    "runtime_value": 97.33846153846154,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4008,7 +4008,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.12121212121212,
+    "runtime_value": 97.25757575757575,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4031,7 +4031,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.1492537313433,
+    "runtime_value": 97.26865671641791,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4054,7 +4054,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.13235294117646,
+    "runtime_value": 97.29411764705883,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4077,7 +4077,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.17391304347827,
+    "runtime_value": 97.31884057971014,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4100,7 +4100,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.21428571428572,
+    "runtime_value": 97.35714285714285,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4123,7 +4123,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.2394366197183,
+    "runtime_value": 97.3943661971831,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4146,7 +4146,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.27777777777777,
+    "runtime_value": 97.43055555555556,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4169,7 +4169,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.3013698630137,
+    "runtime_value": 97.46575342465754,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4192,7 +4192,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.33783783783784,
+    "runtime_value": 97.5,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4215,7 +4215,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.32,
+    "runtime_value": 97.50666666666666,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4238,7 +4238,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.34210526315789,
+    "runtime_value": 97.53947368421053,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4261,7 +4261,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.37662337662337,
+    "runtime_value": 97.57142857142857,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4284,7 +4284,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.3974358974359,
+    "runtime_value": 97.6025641025641,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4307,7 +4307,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.41772151898735,
+    "runtime_value": 97.63291139240506,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4330,7 +4330,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.45,
+    "runtime_value": 97.6625,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4353,7 +4353,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.4320987654321,
+    "runtime_value": 97.64197530864197,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4376,7 +4376,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.45121951219512,
+    "runtime_value": 97.67073170731707,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4399,7 +4399,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.46987951807229,
+    "runtime_value": 97.69879518072288,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4422,7 +4422,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.47619047619047,
+    "runtime_value": 97.70238095238095,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4445,7 +4445,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.48235294117647,
+    "runtime_value": 97.72941176470589,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4468,7 +4468,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.46511627906976,
+    "runtime_value": 97.73255813953489,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4491,7 +4491,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.49425287356321,
+    "runtime_value": 97.75862068965517,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4514,7 +4514,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.52272727272727,
+    "runtime_value": 97.7840909090909,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4537,7 +4537,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.5505617977528,
+    "runtime_value": 97.80898876404494,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4560,7 +4560,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.57777777777777,
+    "runtime_value": 97.83333333333334,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4583,7 +4583,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.56043956043956,
+    "runtime_value": 97.82417582417582,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4606,7 +4606,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.58695652173913,
+    "runtime_value": 97.84782608695653,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4629,7 +4629,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.60215053763442,
+    "runtime_value": 97.86021505376344,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4652,7 +4652,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.62765957446808,
+    "runtime_value": 97.88297872340425,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4675,7 +4675,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.65263157894736,
+    "runtime_value": 97.90526315789474,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4698,7 +4698,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.65625,
+    "runtime_value": 97.91666666666666,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4721,7 +4721,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.63917525773196,
+    "runtime_value": 97.89690721649484,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4744,7 +4744,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.61224489795919,
+    "runtime_value": 97.83673469387755,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4767,7 +4767,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.58585858585859,
+    "runtime_value": 97.83838383838383,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
@@ -4790,7 +4790,7 @@
     "instruction_no": 109,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 97.57000000000001,
+    "runtime_value": 97.85000000000001,
     "typ": "metric",
     "value": "acc",
     "__stack_frame__": [
