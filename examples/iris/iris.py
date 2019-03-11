@@ -46,14 +46,14 @@ def main():
     X_tr, X_te, y_tr, y_te = train_test_split(iris.data, iris.target,
                                                   test_size=log.param(test_size),
                                                   random_state=log.param(random_state))
-    gammas = [0.001, 0.01, 0.05, 0.1]
-    for gamma in gammas:
+    gamma = 0.001
+    for i in range(10):
         clf = svm.SVC(gamma=log.param(gamma), C=log.param(C))
 
         clf.fit(X_tr, y_tr)
 
         score = log.metric(clf.score(X_te, y_te))
-        writer.add_scalar('score', score, gamma)
+        writer.add_scalar('score', score, i)
         print('Gamma: ' , gamma)
         print('Score: ' , score)
 
