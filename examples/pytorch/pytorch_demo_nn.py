@@ -90,8 +90,10 @@ def main():
 
             print(i)
             print("loss: ", loss.item())
-        #writer.add_scalar('loss_epoch', loss.item(), epoch)
-            writer.add_scalar('loss_iter', loss.item(), i)
+
+        print("FINAL loss: ", loss.item())
+        writer.add_scalar('loss_epoch', loss.item(), epoch)
+            #writer.add_scalar('loss_iter', loss.item(), i)
 
 
     # Test the model
