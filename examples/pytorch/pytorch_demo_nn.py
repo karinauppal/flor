@@ -70,7 +70,7 @@ def main():
     # Train the model
     total_step = len(train_loader)
     for epoch in range(num_epochs):
-        print(epoch)
+        # print(epoch)
         for i, (images, labels) in enumerate(train_loader):
             # Move tensors to the configured device
             images = images.reshape(-1, 28*28).to(device)
@@ -95,7 +95,7 @@ def main():
 
         print("Average Loss: ", loss.item())
         writer.add_scalar('loss_epoch', loss.item(), epoch)
-            #writer.add_scalar('loss_iter', loss.item(), i)
+        writer.add_scalar('loss_iter', loss.item(), i)
 
 
     # Test the model
@@ -118,7 +118,6 @@ def main():
 
 
     print('Accuracy of the network on the 10000 test images: {} %'.format(acc))
-
 
 with flor.Context('pytorch_demo_nn'):
     main()
