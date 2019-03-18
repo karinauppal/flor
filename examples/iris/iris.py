@@ -11,7 +11,7 @@ log = flor.log
 
 
 @flor.track
-def fit_and_score_model(gamma, C, test_size, random_state):
+def fit_and_score_model(gamma, C, test_size, random_state, iter):
 
     iris = datasets.load_iris()
     X_tr, X_te, y_tr, y_te = train_test_split(iris.data, iris.target,
@@ -26,12 +26,13 @@ def fit_and_score_model(gamma, C, test_size, random_state):
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
-    writer.add_scalar('score', score, gamma)
+    # writer.add_scalar('score', score, gamma)
+    writer.add_scalars('score', {'gamma':score,
+                                }, iter)
     print('Gamma: ' , gamma)
     print('Score: ' , score)
 
 
-gammas = [0.001, 0.01, 0.05, 0.1]
 with flor.Context('iris'):
-    for gamma in gammas:
-        fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100)
+    for i in range(10):
+        fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=100, iter=i)
