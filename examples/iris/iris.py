@@ -32,7 +32,8 @@ def fit_and_score_model(gamma, C, test_size, random_state, iter):
     print('Gamma: ' , gamma)
     print('Score: ' , score)
 
-
+gammas = [0.001, 0.01, 0.05, 0.1]
 with flor.Context('iris'):
     for i in range(10):
-        fit_and_score_model(gamma=0.001, C=100.0, test_size=0.15, random_state=100, iter=i)
+        for gamma in gammas:
+            fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)
