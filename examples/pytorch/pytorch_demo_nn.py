@@ -95,7 +95,7 @@ def main():
 
         print("Average Loss: ", loss.item())
         writer.add_scalar('loss_epoch', loss.item(), epoch)
-        writer.add_scalar('loss_iter', loss.item(), i)
+        # writer.add_scalar('loss_iter', loss.item(), i)
 
 
     # Test the model
