@@ -6,8 +6,7 @@ from sklearn.model_selection import train_test_split
 import torch
 import numpy as np
 from tensorboardX import SummaryWriter
-writer1 = SummaryWriter()
-writer2 = SummaryWriter()
+writer = SummaryWriter()
 log = flor.log
 
 
