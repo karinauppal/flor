@@ -9,7 +9,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "test_size",
     "pos": null,
     "runtime_value": 0.15,
@@ -33,7 +33,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "random_state",
     "pos": null,
     "runtime_value": 100,
@@ -52,10 +52,10 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.02,
+    "runtime_value": 0.01,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -71,7 +71,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "C",
     "pos": null,
     "runtime_value": 100.0,
@@ -90,7 +90,532 @@
     "from_arg": false,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 28,
+    "instruction_no": 29,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1.0,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "test_size",
+    "pos": null,
+    "runtime_value": 0.15,
+    "typ": "param",
+    "value": "test_size",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "random_state",
+    "pos": null,
+    "runtime_value": 100,
+    "typ": "param",
+    "value": "random_state",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.01,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 29,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1.0,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "test_size",
+    "pos": null,
+    "runtime_value": 0.15,
+    "typ": "param",
+    "value": "test_size",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "random_state",
+    "pos": null,
+    "runtime_value": 100,
+    "typ": "param",
+    "value": "random_state",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.01,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 29,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1.0,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "test_size",
+    "pos": null,
+    "runtime_value": 0.15,
+    "typ": "param",
+    "value": "test_size",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "random_state",
+    "pos": null,
+    "runtime_value": 100,
+    "typ": "param",
+    "value": "random_state",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.01,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 29,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1.0,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "test_size",
+    "pos": null,
+    "runtime_value": 0.15,
+    "typ": "param",
+    "value": "test_size",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "random_state",
+    "pos": null,
+    "runtime_value": 100,
+    "typ": "param",
+    "value": "random_state",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.01,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 29,
+    "keyword_name": null,
+    "pos": null,
+    "runtime_value": 1.0,
+    "typ": "metric",
+    "value": "clf.score(X_te, y_te)",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "test_size",
+    "pos": null,
+    "runtime_value": 0.15,
+    "typ": "param",
+    "value": "test_size",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": [
+        "X_tr",
+        "X_te",
+        "y_tr",
+        "y_te"
+    ],
+    "caller": "train_test_split",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 18,
+    "keyword_name": "random_state",
+    "pos": null,
+    "runtime_value": 100,
+    "typ": "param",
+    "value": "random_state",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "gamma",
+    "pos": null,
+    "runtime_value": 0.1,
+    "typ": "param",
+    "value": "gamma",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "clf",
+    "caller": "svm.SVC",
+    "from_arg": true,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 22,
+    "keyword_name": "C",
+    "pos": null,
+    "runtime_value": 100.0,
+    "typ": "param",
+    "value": "C",
+    "__stack_frame__": [
+        [
+            "function_body",
+            "fit_and_score_model"
+        ]
+    ]
+},
+{
+    "assignee": "score",
+    "caller": null,
+    "from_arg": false,
+    "in_execution": "fit_and_score_model",
+    "in_file": "/Users/karina/flor/examples/iris/iris.py",
+    "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
     "runtime_value": 0.9565217391304348,
@@ -114,7 +639,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "test_size",
     "pos": null,
     "runtime_value": 0.15,
@@ -138,7 +663,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "random_state",
     "pos": null,
     "runtime_value": 100,
@@ -157,10 +682,10 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.02,
+    "runtime_value": 0.1,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -176,7 +701,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "C",
     "pos": null,
     "runtime_value": 100.0,
@@ -195,7 +720,7 @@
     "from_arg": false,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 28,
+    "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
     "runtime_value": 0.9565217391304348,
@@ -219,7 +744,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "test_size",
     "pos": null,
     "runtime_value": 0.15,
@@ -243,7 +768,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "random_state",
     "pos": null,
     "runtime_value": 100,
@@ -262,10 +787,10 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.02,
+    "runtime_value": 0.1,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -281,7 +806,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "C",
     "pos": null,
     "runtime_value": 100.0,
@@ -300,7 +825,7 @@
     "from_arg": false,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 28,
+    "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
     "runtime_value": 0.9565217391304348,
@@ -324,7 +849,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "test_size",
     "pos": null,
     "runtime_value": 0.15,
@@ -348,7 +873,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "random_state",
     "pos": null,
     "runtime_value": 100,
@@ -367,10 +892,10 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.02,
+    "runtime_value": 0.1,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -386,7 +911,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "C",
     "pos": null,
     "runtime_value": 100.0,
@@ -405,7 +930,7 @@
     "from_arg": false,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 28,
+    "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
     "runtime_value": 0.9565217391304348,
@@ -429,7 +954,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "test_size",
     "pos": null,
     "runtime_value": 0.15,
@@ -453,7 +978,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 17,
+    "instruction_no": 18,
     "keyword_name": "random_state",
     "pos": null,
     "runtime_value": 100,
@@ -472,10 +997,10 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.02,
+    "runtime_value": 0.1,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -491,7 +1016,7 @@
     "from_arg": true,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 21,
+    "instruction_no": 22,
     "keyword_name": "C",
     "pos": null,
     "runtime_value": 100.0,
@@ -510,7 +1035,7 @@
     "from_arg": false,
     "in_execution": "fit_and_score_model",
     "in_file": "/Users/karina/flor/examples/iris/iris.py",
-    "instruction_no": 28,
+    "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
     "runtime_value": 0.9565217391304348,

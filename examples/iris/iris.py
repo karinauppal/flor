@@ -6,7 +6,8 @@ from sklearn.model_selection import train_test_split
 import torch
 import numpy as np
 from tensorboardX import SummaryWriter
-writer = SummaryWriter()
+writer1 = SummaryWriter()
+writer2 = SummaryWriter()
 log = flor.log
 
 
@@ -26,12 +27,12 @@ def fit_and_score_model(gamma, C, test_size, random_state, iter):
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
-    writer.add_scalar('score', score, iter)
+    writer1.add_scalar('score', score, iter)
     print('Gamma: ' , gamma)
     print('Score: ' , score)
 
-gammas = [0.001, 0.01, 0.05, 0.1]
+gammas = [0.01, 0.1]
 with flor.Context('iris'):
-    for i in range(5):
-        #for gamma in gammas:
-            fit_and_score_model(gamma=0.02, C=100.0, test_size=0.15, random_state=100, iter=i)
+    for gamma in gammas:
+        for i in range(5):
+            fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)
