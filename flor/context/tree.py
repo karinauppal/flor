@@ -3,6 +3,8 @@ from flor.context.tables import *
 import pandas as pd
 import numpy as np
 import os
+import git
+
 class Node:
 
     def __init__(self, d):
@@ -50,7 +52,6 @@ class Tree:
         for idx, node in enumerate(nodes): #figure out how to change this part
             # Attach this node to its parent, unless this node is root
             check = False
-            # print(marker)
             if str(node.stack_frame) not in marker:
                 # Update the marker and stack frames the first time we see a new stack_frame
                 marker[str(node.stack_frame)] = node
@@ -66,7 +67,7 @@ class Tree:
             else:
                 # Advance the marker
                 if (node.stack_frame != nodes[-1].stack_frame and
-                    self.__is_ancestor__(node.stack_frame, nodes[-1].stack_frame)):
+                        self.__is_ancestor__(node.stack_frame, nodes[-1].stack_frame)):
                     # print(idx)
                     marker = {}
                     stack_frames = [node.stack_frame]
@@ -77,11 +78,19 @@ class Tree:
                 marker[str(node.stack_frame)] = node
 
         #inserting into database
+        commit = str(git.Repo(os.getcwd()).head.commit)
+        name = git.Repo(os.getcwd()).head.commit.message
+        insert_experiment(name, commit, 0) #fix with real timestamp later
+
         for node in nodes:
-            commit = git.Repo(os.getcwd()).head.commit
-            name = git.Repo(os.getcwd()).head.commit.message
-            insert_experiment(name, commit, 0)
-            insert_ParamMetric()
+            if node.typ == 'read' or node.typ == 'write':
+                insert_rw(commit, node.value , node.typ)
+            else:
+                insert_ParamMetric(node.assignee, node.keyword_name, node.value, node.typ,
+                                   node.runtime_value, commit, None, None)
+                #right now path_id and trial_id are empty
+                #don't forget to add a master id
+
 
 
     def get_df(self):

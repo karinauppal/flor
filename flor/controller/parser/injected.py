@@ -14,8 +14,10 @@ dict_of_returns: Dict[Any, Set[str]] = {}
 file = None
 
 log_record_buffer = []
-log_record_flag = False
+log_record_flag = True
 
+def get_logs():
+    return log_record_buffer
 
 class FlorEnter:
     pass

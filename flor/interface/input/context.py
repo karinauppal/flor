@@ -5,6 +5,7 @@ import sys
 
 from flor.controller.versioner import Versioner
 from flor.controller.parser import injected
+from flor.context.tree import Tree
 import flor.global_state as global_state
 
 logger = logging.getLogger(__name__)
@@ -55,3 +56,4 @@ class Context():
         assert not global_state.interactive, "flor.Context not defined for interactive environments (IPython or Jupyter)"
         injected.file.close()
         self.versioner.save_commit_event("Experiment Name :: {}\n\n".format(self.xp_name), self.log_file_name)
+        Tree(injected.get_logs())
