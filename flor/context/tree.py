@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 import git
+import json
 
 class Node:
 
@@ -32,15 +33,6 @@ class Tree:
         self.leaves = set([])
         self.build_tree(log_records)
         self.d = {}
-
-    def _gen_id(self):
-        # borrowed from Grit
-        with open('next_id.txt', 'r') as f:
-            newid = int(f.read())
-        nxtid = str(newid + 1)
-        with open('next_id.txt', 'w') as f:
-            f.write(nxtid)
-        return int(newid)
 
     def build_tree(self, log_records: List[Dict[str, Any]]):
         self.producers_table = {}
@@ -92,9 +84,18 @@ class Tree:
                 marker[str(node.stack_frame)] = node
 
         #inserting into database
+        if not os.path.exists('trials.json'):
+            trials = {}
+        else:
+            trials = json.loads(open('trials.json').read())
+
         commit = str(git.Repo(os.getcwd()).head.commit)
         name = git.Repo(os.getcwd()).head.commit.message
-        insert_experiment(name, commit, 0) #fix with real timestamp later
+        check = insert_experiment(name, commit, 0) #fix with real timestamp later
+        if check:
+            trials[commit] = 0
+        else:
+            trials[commit] += 1 #this should already exist in the directory
 
         with open('next_id.txt', 'r') as f:
             identity = int(f.read())
@@ -104,15 +105,15 @@ class Tree:
                 insert_rw(identity, commit, node.value , node.typ)
             else:
                 insert_ParamMetric(identity, node.assignee, node.keyword_name, node.value, node.typ,
-                                   node.runtime_value, commit, None, None, None)
-                #right now path_id and trial_id are empty
-                #don't forget to add a master id
+                                   node.runtime_value, commit, None, None, trials[commit])
+                #right now path_id and parent_id is empty
             identity += 1
         with open('next_id.txt', 'w') as f:
             f.write(str(identity))
+        with open('trials.json', 'w') as f:
+            json.dump(trials, f)
 
     def get_df(self):
-        # matrix[row_id][col_id] = v
         matrix = {}
         for col_id, leaf in enumerate(self.leaves):
             node = leaf
@@ -122,15 +123,11 @@ class Tree:
                     matrix[row_id] = {}
                 matrix[row_id][col_id] = node.runtime_value
                 node = node.parent
-        # len(d[row_id]) = len(self.leaves)
-        # print(matrix)
-        # print(self.d)
         for row_id in matrix:
             if row_id in self.d:
                 column = self.d[row_id]
             else:
                 column = []
-            # print(column)
             for col_id in range(len(self.leaves)):
                 if col_id not in matrix[row_id]:
                     column.append(np.nan)

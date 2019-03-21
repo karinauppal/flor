@@ -44,9 +44,10 @@ def insert_experiment(n:str, exec:str, ts:int):
     try:
         exp = Experiment.get(Experiment.name == n, Experiment.execution_id == exec);
         #do we want timestamp updated?
-        return
+        return False
     except:
         Experiment.create(name = n, execution_id = exec, timestamp = ts)
+        return True
 
 def insert_ParamMetric(e_id:int, a:str, kw_name:str, val:str, type:str, r_val:str, exec:str, from_id:int, path:int, trial:int):
     Identities.create(entry_id=e_id)
