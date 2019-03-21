@@ -23,6 +23,7 @@ class Node:
 
         self.children = []
         self.parent = None
+        self.identity = None
 
 class Tree:
 
@@ -32,12 +33,25 @@ class Tree:
         self.build_tree(log_records)
         self.d = {}
 
+    def _gen_id(self):
+        # borrowed from Grit
+        with open('next_id.txt', 'r') as f:
+            newid = int(f.read())
+        nxtid = str(newid + 1)
+        with open('next_id.txt', 'w') as f:
+            f.write(nxtid)
+        return int(newid)
+
     def build_tree(self, log_records: List[Dict[str, Any]]):
         self.producers_table = {}
         self.leaves = set([])
         marker = {}
         stack_frames = []
         nodes : List[Node] = []
+
+        if not os.path.exists('next_id.txt'):
+            with open('next_id.txt', 'w') as f:
+                f.write('0')
 
         for r in log_records:
             if 'from' in r and 'to' in r:
@@ -82,16 +96,20 @@ class Tree:
         name = git.Repo(os.getcwd()).head.commit.message
         insert_experiment(name, commit, 0) #fix with real timestamp later
 
+        with open('next_id.txt', 'r') as f:
+            identity = int(f.read())
+
         for node in nodes:
             if node.typ == 'read' or node.typ == 'write':
-                insert_rw(commit, node.value , node.typ)
+                insert_rw(identity, commit, node.value , node.typ)
             else:
-                insert_ParamMetric(node.assignee, node.keyword_name, node.value, node.typ,
-                                   node.runtime_value, commit, None, None)
+                insert_ParamMetric(identity, node.assignee, node.keyword_name, node.value, node.typ,
+                                   node.runtime_value, commit, None, None, None)
                 #right now path_id and trial_id are empty
                 #don't forget to add a master id
-
-
+            identity += 1
+        with open('next_id.txt', 'w') as f:
+            f.write(str(identity))
 
     def get_df(self):
         # matrix[row_id][col_id] = v
