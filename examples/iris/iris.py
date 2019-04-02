@@ -48,4 +48,4 @@ with flor.Context('iris'):
 
             np.append(dict[str(gamma)], float(fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)))
 
-            writer.add_scalars('score', dict, i)
+        writer.add_scalars('score', dict, i)
