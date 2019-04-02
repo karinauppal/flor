@@ -580,7 +580,7 @@
     "instruction_no": 21,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.1,
+    "runtime_value": 0.01,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -618,7 +618,7 @@
     "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.9565217391304348,
+    "runtime_value": 1.0,
     "typ": "metric",
     "value": "clf.score(X_te, y_te)",
     "__stack_frame__": [
@@ -685,7 +685,7 @@
     "instruction_no": 21,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.1,
+    "runtime_value": 0.01,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -723,7 +723,7 @@
     "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.9565217391304348,
+    "runtime_value": 1.0,
     "typ": "metric",
     "value": "clf.score(X_te, y_te)",
     "__stack_frame__": [
@@ -790,7 +790,7 @@
     "instruction_no": 21,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.1,
+    "runtime_value": 0.01,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -828,7 +828,7 @@
     "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.9565217391304348,
+    "runtime_value": 1.0,
     "typ": "metric",
     "value": "clf.score(X_te, y_te)",
     "__stack_frame__": [
@@ -895,7 +895,7 @@
     "instruction_no": 21,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.1,
+    "runtime_value": 0.01,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -933,7 +933,7 @@
     "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.9565217391304348,
+    "runtime_value": 1.0,
     "typ": "metric",
     "value": "clf.score(X_te, y_te)",
     "__stack_frame__": [
@@ -1000,7 +1000,7 @@
     "instruction_no": 21,
     "keyword_name": "gamma",
     "pos": null,
-    "runtime_value": 0.1,
+    "runtime_value": 0.01,
     "typ": "param",
     "value": "gamma",
     "__stack_frame__": [
@@ -1038,7 +1038,7 @@
     "instruction_no": 29,
     "keyword_name": null,
     "pos": null,
-    "runtime_value": 0.9565217391304348,
+    "runtime_value": 1.0,
     "typ": "metric",
     "value": "clf.score(X_te, y_te)",
     "__stack_frame__": [

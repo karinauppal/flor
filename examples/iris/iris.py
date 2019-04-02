@@ -27,13 +27,12 @@ def fit_and_score_model(gamma, C, test_size, random_state, iter):
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
-    writer.add_scalar('score_{0}'.format(gamma), score, iter)
+    writer.add_scalar('score'.format(gamma), score, iter)
     print('Gamma: ' , gamma)
     print('Score: ' , score)
 
 gammas = [0.01, 0.1]
 with flor.Context('iris'):
-    for i in range(5):
-        fit_and_score_model(gamma=0.01, C=100.0, test_size=0.15, random_state=100, iter=i)
-    for j in range(5):
-        fit_and_score_model(gamma=0.1, C=100.0, test_size=0.15, random_state=100, iter=j)
+    for gamma in gammas:
+        for i in range(5):
+            fit_and_score_model(gamma=0.01, C=100.0, test_size=0.15, random_state=100, iter=i)
