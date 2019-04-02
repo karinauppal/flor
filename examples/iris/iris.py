@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 import torch
 import numpy as np
 from tensorboardX import SummaryWriter
+from collections import defaultdict
 
 writer = SummaryWriter(filename_suffix='writer1')
 writer = SummaryWriter(filename_suffix='writer1')
