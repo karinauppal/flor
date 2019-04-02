@@ -35,4 +35,4 @@ gammas = [0.01, 0.1]
 with flor.Context('iris'):
     for gamma in gammas:
         for i in range(5):
-            fit_and_score_model(gamma=0.01, C=100.0, test_size=0.15, random_state=100, iter=i)
+            fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)
