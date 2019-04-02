@@ -44,7 +44,7 @@ with flor.Context('iris'):
     for i in range(5):
         for gamma in gammas:
             if str(gamma) not in dict:
-                dict[str(gamma)] = np.empty(5)
+                dict[str(gamma)] = np.empty((5,))
 
             np.append(dict[str(gamma)], float(fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)))
 
