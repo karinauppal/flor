@@ -49,4 +49,8 @@ with flor.Context('iris'):
 
             dct[str(gamma)].append(float(fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)))
 
+        dct2 = {}
+        for key in dct:
+            dct2[key] = np.array(dct[key])
+
         writer.add_scalars('score', dct, i)
