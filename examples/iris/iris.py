@@ -53,4 +53,4 @@ with flor.Context('iris'):
         for key in dct:
             dct2[key] = np.array(dct[key])
 
-        writer.add_scalars('score', dct, i)
+        writer.add_scalars('score', dct2, i)
