@@ -40,12 +40,12 @@ def fit_and_score_model(gamma, C, test_size, random_state, iter):
 
 gammas = [0.01, 0.1]
 with flor.Context('iris'):
-    dict = {}
+    dct = defaultdict(list)
     for i in range(5):
         for gamma in gammas:
-            if str(gamma) not in dict:
-                dict[str(gamma)] = np.empty((5,))
+            # if str(gamma) not in dict:
+            #     dct[str(gamma)] = np.empty((5,))
 
-            np.append(dict[str(gamma)], float(fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)))
+            dct[str(gamma)].append(float(fit_and_score_model(gamma=gamma, C=100.0, test_size=0.15, random_state=100, iter=i)))
 
-        writer.add_scalars('score', dict, i)
+        writer.add_scalars('score', dct, i)
