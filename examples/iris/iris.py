@@ -27,7 +27,7 @@ def fit_and_score_model(gamma, C, test_size, random_state, iter):
     clf.fit(X_tr, y_tr)
 
     score = log.metric(clf.score(X_te, y_te))
-    writer.add_scalar('score_%d'.format(gamma), score, iter)
+    writer.add_scalar('score_{0}'.format(gamma), score, iter)
     print('Gamma: ' , gamma)
     print('Score: ' , score)
 
