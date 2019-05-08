@@ -1,21 +1,17 @@
 import unittest
 from argparse import Namespace
 from flor.commands.flython import exec_flython
-# from flor.commands.flan import exec_flan
+#from flor.commands.flan import exec_flan
 
 class MyTest(unittest.TestCase):
 
     def test_cp(self):
-        # class test:
-        #     def __setattr__(self, key, value):
-        #         return value
-        # args1 = test()
         args_flython = Namespace(path='example_raw.py', name='ex', depth_limit=1)
         exec_flython(args_flython)
 
         args_etl = Namespace(annotated_file='example_h.py', name='ex')
-        # self.assertRaises(RuntimeError, exec_flan(args_etl))
-
+        #self.assertRaises(RuntimeError, exec_flan(args_etl))
+        print("YAY")
 
 if __name__ == '__main__':
     tester = MyTest()
