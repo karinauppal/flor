@@ -9,7 +9,7 @@ class MyTest(unittest.TestCase):
     def test_flython_no_name(self): # code remains florified
         args_flython = Namespace(path='example_raw.py')
 
-        self.assertRaises(AttributeError, exec_flython(args_flython))
+        self.assertRaises(AttributeError, lambda: exec_flython(args_flython))
 
         print("YAY")
 

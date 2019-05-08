@@ -3,10 +3,24 @@ if Flog.flagged():
     flog = Flog(False)
 Flog.flagged() and flog.write({'file_path':
     '/Users/karina/flor/tests/iris/log_driver.py', 'lsn': 0})
+from flor import Flog
+if Flog.flagged():
+    Flog.flagged() and flog.write({'conditional_fork': 'Flog.flagged()',
+        'lsn': 1})
+    flog = Flog(False)
+    Flog.flagged() and flog.write({'locals': [{'flog': flog.serialize(flog)
+        }], 'lineage': 'flog = Flog(False)', 'lsn': 3})
+else:
+    Flog.flagged() and flog.write({'conditional_fork':
+        'not (Flog.flagged())', 'lsn': 2})
+Flog.flagged() and flog.write({'file_path':
+    '/Users/karina/flor/tests/iris/log_driver.py', 'lsn': 0})
 from flor.log_scanner.state_machines.actual_param import ActualParam
 from flor.log_scanner.scanner import Scanner
 import json
 scanner = Scanner('log.json')
+Flog.flagged() and flog.write({'locals': [{'scanner': flog.serialize(
+    scanner)}], 'lineage': 'scanner = Scanner("log.json")', 'lsn': 4})
 Flog.flagged() and flog.write({'locals': [{'scanner': flog.serialize(
     scanner)}], 'lineage': 'scanner = Scanner("log.json")', 'lsn': 1})
 scanner.register_state_machine(ActualParam(
