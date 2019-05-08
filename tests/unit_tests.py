@@ -6,10 +6,11 @@ from flor.commands.flython import exec_flython
 
 class MyTest(unittest.TestCase):
 
-    def test_flython(self):
+    def test_flython_no_name(self): # code remains florified
         args_flython = Namespace(path='example_raw.py')
 
-        self.assertRaises(RuntimeError, exec_flython(args_flython))
+        self.assertRaises(AttributeError, exec_flython(args_flython))
+
         print("YAY")
 
     def test_cp(self):
@@ -22,8 +23,8 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     tester = MyTest()
-    tester.test_flython()
-    tester.test_cp()
+    tester.test_flython_no_name()
+    #tester.test_cp()
 
 # cp nothing
 # cp a file that does not exist
