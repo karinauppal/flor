@@ -1,0 +1,4 @@
+language: python
+os: osx
+rvm:
+ - 3.6
