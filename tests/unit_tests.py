@@ -1,15 +1,19 @@
 import unittest
-import flor
-import subprocess
+from argparse import Namespace
+from flor.commands.flython import exec_flython
 
 class MyTest(unittest.TestCase):
 
     def test_cp(self):
-        subprocess.run(["flor", "python", "example_raw.py", "ex"])
-        # subprocess.check_output("flor cp example_raw.py exampe_h.py", shell=True)
-        subprocess.check_output("flor etl ex example_h.py", shell=True)
+        # class test:
+        #     def __setattr__(self, key, value):
+        #         return value
+        # args1 = test()
+        args_flython = Namespace(path='example_raw.py', name='ex', depth_limit=1)
+        exec_flython(args_flython)
 
-        self.assertRaises(exception.RuntimeError, flor.commands.flan.exec_flan)
+        args_etl = Namespace(annotated_file='example_h.py', name='ex')
+        self.assertRaises(exception.RuntimeError, exec_flan(args_etl))
 
 
 if __name__ == '__main__':
