@@ -5,11 +5,11 @@ import subprocess
 class MyTest(unittest.TestCase):
 
     def test_cp(self):
-        subprocess.check_output("flor python example_raw.py ex", shell=True)
-        # subprocess.check_output("flor cp example_raw.py example_h.py", shell=True)
+        subprocess.run(["flor", "python", "example_raw.py", "ex"])
+        # subprocess.check_output("flor cp example_raw.py exampe_h.py", shell=True)
         subprocess.check_output("flor etl ex example_h.py", shell=True)
 
-        self.assertRaises(exception.RuntimeError, flan.exec_flan)
+        self.assertRaises(exception.RuntimeError, flor.commands.flan.exec_flan)
 
 
 if __name__ == '__main__':
