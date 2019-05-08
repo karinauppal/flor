@@ -22,6 +22,7 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     tester = MyTest()
+    tester.test_flython()
     tester.test_cp()
 
 # cp nothing
