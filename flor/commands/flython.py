@@ -33,10 +33,10 @@ def exec_flython(args):
     walker = Walker(os.path.dirname(full_path))
 
     # Transform code
-    # transform(full_path, walker)
+    transform(full_path, walker)
 
     # Overwrite current directory
-    # overwrite(full_path, walker)
+    overwrite(full_path, walker)
 
     # Model OpenLog Behavior
     ol = OpenLog(args.name, args.depth_limit)
