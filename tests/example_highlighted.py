@@ -1,8 +1,9 @@
+#/Users/karina/flor/tests/example_raw.py
 from flor import Flog
 if Flog.flagged():
     flog = Flog(False)
 Flog.flagged() and flog.write({'file_path':
-    '/Users/karina/flor/tests/example_highlighted.py', 'lsn': 0})
+    '/Users/karina/flor/tests/example_raw.py', 'lsn': 0})
 from flor import Flog
 if Flog.flagged():
     Flog.flagged() and flog.write({'conditional_fork': 'Flog.flagged()',
@@ -133,7 +134,7 @@ def fit_and_score_model(solver, alpha, hidden_layer_sizes, test_size):
     if Flog.flagged():
         flog = Flog()
     Flog.flagged() and flog.write({'file_path':
-        '/Users/karina/flor/tests/example_highlighted.py', 'lsn': 0})
+        '/Users/karina/flor/tests/example_raw.py', 'lsn': 0})
     Flog.flagged() and flog.write({'start_function': 'fit_and_score_model',
         'lsn': 1})
     Flog.flagged() and flog.write({'lsn': 2, 'params': [{'0.raw.solver':
@@ -419,7 +420,7 @@ if __name__ == '__main__':
     Flog.flagged() and flog.write({'locals': [{'alphas': flog.serialize(
         alphas)}], 'lineage': 'alphas = [0.1, 0.01, 0.001, 0.0001]', 'lsn': 3})
     for alpha in alphas:
-        Flog.flagged() and flog.write({'start_loop': 324, 'lsn': 19})
+        Flog.flagged() and flog.write({'start_loop': 323, 'lsn': 19})
         Flog.flagged() and flog.write({'start_loop': 237, 'lsn': 16})
         Flog.flagged() and flog.write({'start_loop': 163, 'lsn': 13})
         Flog.flagged() and flog.write({'start_loop': 102, 'lsn': 10})
@@ -432,7 +433,7 @@ if __name__ == '__main__':
         Flog.flagged() and flog.write({'end_loop': 102, 'lsn': 11})
         Flog.flagged() and flog.write({'end_loop': 163, 'lsn': 14})
         Flog.flagged() and flog.write({'end_loop': 237, 'lsn': 17})
-        Flog.flagged() and flog.write({'end_loop': 324, 'lsn': 20})
+        Flog.flagged() and flog.write({'end_loop': 323, 'lsn': 20})
 else:
     Flog.flagged() and flog.write({'conditional_fork':
         'not ((__name__ == "__main__"))', 'lsn': 17})
