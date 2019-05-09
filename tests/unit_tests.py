@@ -17,7 +17,7 @@ class MyTest(unittest.TestCase):
 
 
     def test_flython_nonexistent_path(self): # example_r does not exist
-        args_flython = Namespace(path='example/example_r.py', name='ex', depth_limit=1)
+        args_flython = Namespace(path='tests/example/example_r.py', name='ex', depth_limit=1)
         self.assertRaises(FileNotFoundError, lambda: commands.flython.get_path(args_flython))
 
 
@@ -27,31 +27,31 @@ class MyTest(unittest.TestCase):
 
 
     def test_cp_nonexistent_path(self): # example_r does not exist
-        args_cp = Namespace(src='example/example_r.py', dst='example/example_h.py')
+        args_cp = Namespace(src='tests/example/example_r.py', dst='tests/example/example_h.py')
         self.assertRaises(FileNotFoundError, lambda: commands.cp.exec_cp(args_cp))
 
 
     def test_cp_new_hfile(self):
-        exists = os.path.isfile('example/example_h.py')
+        exists = os.path.isfile('tests/example/example_h.py')
         self.assertEqual(exists, 0)
 
-        args_cp = Namespace(src='example/example_raw.py', dst='example/example_h.py')
+        args_cp = Namespace(src='tests/example/example_raw.py', dst='tests/example/example_h.py')
         commands.cp.exec_cp(args_cp)
 
-        exists = os.path.isfile('example/example_h.py')
+        exists = os.path.isfile('tests/example/example_h.py')
         self.assertEqual(exists, 1)
 
 
     def test_cp_old_hfile(self):
-        exists = os.path.isfile('example/example_highlight.py')
+        exists = os.path.isfile('tests/example/example_highlight.py')
         self.assertEqual(exists, 1)
 
-        args_cp = Namespace(src='example/example_raw.py', dst='example/example_highlight.py')
+        args_cp = Namespace(src='tests/example/example_raw.py', dst='tests/example/example_highlight.py')
         commands.cp.exec_cp(args_cp)
 
-        exists = os.path.isfile('example/example_highlight.py')
+        exists = os.path.isfile('tests/example/example_highlight.py')
         self.assertEqual(exists, 1)
-        # check for if file has any extra lines
+        # check if file has any extra lines
 
 
     # def test_no_cp_command(self):
@@ -66,7 +66,7 @@ class MyTest(unittest.TestCase):
 
     # check if every log record has a sequence number
     def test_log_seqno(self):
-        with open('iris/iris_log.json', 'r') as file:
+        with open('tests/iris/iris_log.json', 'r') as file:
             strings = ['session_start', 'session_end']
             for line in file:
                 if not any(s in line for s in strings):
@@ -79,8 +79,9 @@ class MyTest(unittest.TestCase):
 
     # check if logs generated correctly
     # def test_log_output(self):
+    #     commands.flython.exec_flython(args_flython)
     #     assert json.dumps() == json.dumps()
-    
+
 
 if __name__ == '__main__':
     unittest.main()

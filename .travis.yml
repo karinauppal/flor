@@ -1,2 +1,10 @@
 language: generic
 os: osx
+branches:
+  only:
+  - popular_instrumented
+jobs:
+  include:
+    - stage: "Tests"    
+      name: "Unit Tests"            
+      script: python tests/unit_tests.py
