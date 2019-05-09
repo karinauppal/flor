@@ -7,9 +7,9 @@ class MyTest(unittest.TestCase):
 
     # Testing Commands
 
-    # def test_flython_no_name(self):
-    #     args_flython = Namespace(path='example_raw.py')
-    #     self.assertRaises(AttributeError, lambda: commands.flython.exec_flython(args_flython))
+    def test_flython_no_name(self):
+        args_flython = Namespace(path='example_raw.py')
+        self.assertRaises(AttributeError, lambda: commands.flython.exec_flython(args_flython))
 
     # ensure that after calling flython, file is no longer florified
     # def test_flython(self):
@@ -51,12 +51,12 @@ class MyTest(unittest.TestCase):
         self.assertEqual(exists, 1)
         # check for if file has any extra lines
 
-    def test_no_cp_command(self):
-        args_flython = Namespace(path='example_raw.py', name='ex', depth_limit=1)
-        commands.flython.exec_flython(args_flython)
-
-        args_flan = Namespace(annotated_file='example_highlight.py', name='ex')
-        self.assertRaises(AttributeError, lambda: commands.flan.exec_flan(args_flan))
+    # def test_no_cp_command(self):
+    #     args_flython = Namespace(path='example_raw.py', name='ex', depth_limit=1)
+    #     commands.flython.exec_flython(args_flython)
+    #
+    #     args_flan = Namespace(annotated_file='example_highlight.py', name='ex')
+    #     self.assertRaises(AttributeError, lambda: commands.flan.exec_flan(args_flan))
         # currently get IndexError in flan.py, instead should tell user they are missing path and to use cp command before etl
 
     # Test Logging
