@@ -1,3 +1,4 @@
+#/Users/karina/flor/tests/example/example_raw.py
 from sklearn import datasets
 from sklearn import neural_network
 from sklearn.model_selection import train_test_split
@@ -13,9 +14,9 @@ def fit_and_score_model(solver, alpha, hidden_layer_sizes, test_size):
 
     score = clf.score(X_te, y_te)
 
-if __name__ == "__main__":
-    alphas = [0.1, 0.01, 0.001, 0.0001]
-    for alpha in alphas:
-        fit_and_score_model(solver='lbfgs', alpha=alpha, hidden_layer_sizes = (5, 2), test_size=0.15)
+#if __name__ == "__main__":
+alphas = [0.1, 0.01, 0.001, 0.0001]
+for alpha in alphas:
+    fit_and_score_model(solver='lbfgs', alpha=alpha, hidden_layer_sizes = (5, 2), test_size=0.15)
 
-    print('Done!')
+print('Done!')

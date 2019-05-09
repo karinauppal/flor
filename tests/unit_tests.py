@@ -7,15 +7,15 @@ class MyTest(unittest.TestCase):
 
     # Testing Commands
 
-    def test_flython_no_name(self):
-        args_flython = Namespace(path='example_raw.py')
-        self.assertRaises(AttributeError, lambda: commands.flython.exec_flython(args_flython))
+    # def test_flython_no_name(self):
+    #     args_flython = Namespace(path='example_raw.py')
+    #     self.assertRaises(AttributeError, lambda: commands.flython.exec_flython(args_flython))
 
     # ensure that after calling flython, file is no longer florified
     # def test_flython(self):
 
     def test_flython_nonexistent_path(self): # example_r does not exist
-        args_flython = Namespace(path='example_r.py', name='ex', depth_limit=1)
+        args_flython = Namespace(path='example/example_r.py', name='ex', depth_limit=1)
         self.assertRaises(FileNotFoundError, lambda: commands.flython.get_path(args_flython))
 
 
@@ -25,29 +25,29 @@ class MyTest(unittest.TestCase):
 
 
     def test_cp_nonexistent_path(self): # example_r does not exist
-        args_cp = Namespace(src='example_r.py', dst='example_h.py')
+        args_cp = Namespace(src='example/example_r.py', dst='example/example_h.py')
         self.assertRaises(FileNotFoundError, lambda: commands.cp.exec_cp(args_cp))
 
 
     def test_cp_new_hfile(self):
-        exists = os.path.isfile('example_h.py')
+        exists = os.path.isfile('example/example_h.py')
         self.assertEqual(exists, 0)
 
-        args_cp = Namespace(src='example_raw.py', dst='example_h.py')
+        args_cp = Namespace(src='example/example_raw.py', dst='example/example_h.py')
         commands.cp.exec_cp(args_cp)
 
-        exists = os.path.isfile('example_h.py')
+        exists = os.path.isfile('example/example_h.py')
         self.assertEqual(exists, 1)
 
 
     def test_cp_old_hfile(self):
-        exists = os.path.isfile('example_highlight.py')
+        exists = os.path.isfile('example/example_highlight.py')
         self.assertEqual(exists, 1)
 
-        args_cp = Namespace(src='example_raw.py', dst='example_highlight.py')
+        args_cp = Namespace(src='example/example_raw.py', dst='example/example_highlight.py')
         commands.cp.exec_cp(args_cp)
 
-        exists = os.path.isfile('example_highlight.py')
+        exists = os.path.isfile('example/example_highlight.py')
         self.assertEqual(exists, 1)
         # check for if file has any extra lines
 
@@ -57,14 +57,14 @@ class MyTest(unittest.TestCase):
     #
     #     args_flan = Namespace(annotated_file='example_highlight.py', name='ex')
     #     self.assertRaises(AttributeError, lambda: commands.flan.exec_flan(args_flan))
-        # currently get IndexError in flan.py, instead should tell user they are missing path and to use cp command before etl
+    # currently get IndexError in flan.py, instead should tell user they are missing path and to use cp command before etl
 
     # Test Logging
 
     # check if every log record has a sequence number
-    # def test_log_seqno(self):
+    def test_log_seqno(self):
 
-
+        return None
     # check if you can json serialize every object
     # def test_json(self):
 
