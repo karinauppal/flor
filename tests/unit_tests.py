@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/Users/karina/flor/flor')
 import unittest
 from argparse import Namespace
 import os
@@ -6,7 +8,7 @@ from flor import commands
 
 class MyTest(unittest.TestCase):
 
-    # Testing Commands
+    # Tests for Commands
 
     # def test_flython_no_name(self):
     #     args_flython = Namespace(path='example_raw.py')
@@ -62,7 +64,7 @@ class MyTest(unittest.TestCase):
     #     self.assertRaises(AttributeError, lambda: commands.flan.exec_flan(args_flan))
     # currently get IndexError in flan.py, instead should tell user they are missing path and to use cp command before etl
 
-    # Test Logging
+    # Tests for Logging
 
     # check if every log record has a sequence number
     def test_log_seqno(self):
@@ -73,14 +75,9 @@ class MyTest(unittest.TestCase):
                     line = json.loads(line.strip())
                     self.assertNotEqual(line['lsn'], None)
 
-    # check if you can json serialize object
-    # def test_json(self):
-
 
     # check if logs generated correctly
     # def test_log_output(self):
-    #     commands.flython.exec_flython(args_flython)
-    #     assert json.dumps() == json.dumps()
 
 
 if __name__ == '__main__':
