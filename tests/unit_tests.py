@@ -14,9 +14,9 @@ class MyTest(unittest.TestCase):
     # ensure that after calling flython, file is no longer florified
     # def test_flython(self):
 
-    # def test_flython_nonexistent_path(self): # example_r does not exist
-    #     args_flython = Namespace(path='example_r.py', name='ex', depth_limit=1)
-    #     self.assertRaises(FileNotFoundError, lambda: commands.flython.get_path(args_flython))
+    def test_flython_nonexistent_path(self): # example_r does not exist
+        args_flython = Namespace(path='example_r.py', name='ex', depth_limit=1)
+        self.assertRaises(FileNotFoundError, lambda: commands.flython.get_path(args_flython))
 
 
     def test_cp_no_args(self):
@@ -57,6 +57,7 @@ class MyTest(unittest.TestCase):
 
         args_flan = Namespace(annotated_file='example_highlight.py', name='ex')
         self.assertRaises(AttributeError, lambda: commands.flan.exec_flan(args_flan))
+        # currently get IndexError in flan.py, instead should tell user they are missing path and to use cp command before etl
 
     # Test Logging
 
