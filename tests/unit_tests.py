@@ -1,6 +1,7 @@
 import unittest
 from argparse import Namespace
 import os
+import json
 from flor import commands
 
 class MyTest(unittest.TestCase):
@@ -13,6 +14,7 @@ class MyTest(unittest.TestCase):
 
     # ensure that after calling flython, file is no longer florified
     # def test_flython(self):
+
 
     def test_flython_nonexistent_path(self): # example_r does not exist
         args_flython = Namespace(path='example/example_r.py', name='ex', depth_limit=1)
@@ -51,6 +53,7 @@ class MyTest(unittest.TestCase):
         self.assertEqual(exists, 1)
         # check for if file has any extra lines
 
+
     # def test_no_cp_command(self):
     #     args_flython = Namespace(path='example_raw.py', name='ex', depth_limit=1)
     #     commands.flython.exec_flython(args_flython)
@@ -63,17 +66,21 @@ class MyTest(unittest.TestCase):
 
     # check if every log record has a sequence number
     def test_log_seqno(self):
+        with open('iris/iris_log.json', 'r') as file:
+            strings = ['session_start', 'session_end']
+            for line in file:
+                if not any(s in line for s in strings):
+                    line = json.loads(line.strip())
+                    self.assertNotEqual(line['lsn'], None)
 
-        return None
-    # check if you can json serialize every object
+    # check if you can json serialize object
     # def test_json(self):
 
 
     # check if logs generated correctly
     # def test_log_output(self):
-
-
-
+    #     assert json.dumps() == json.dumps()
+    
 
 if __name__ == '__main__':
     unittest.main()
